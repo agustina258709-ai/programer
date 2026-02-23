@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+     <title>text alignment</title>
+     <style>
+     header {
+        text-align: center;
+     }
+
+     .text-left {
+        text-align: left;
+     }
+
+     .text-center {
+        text-align: center;
+     }
+
+     .text-right {
+        text-align: right;
+     }
+
+     .text-justify {
+        text-align: justify;
+     }
+     </style>
+     </head>
+
+
+
+<body>
+<header> contoh perataan teks </header>
+<div class="tekt-left">
+paragraf ini akan rata kiri.ini cuma contoh paragraf untuk mendemokan tekt-align di CSS.
+silakan tulis isi paragraf sesukamu.cobalah perhatikan hasilnya di browser.
+</div>
+<div clas="text center">
+paragraf ini akan rata tengah.ini cuma contoh paragraf untuk mendemokan tekt-align di CSS.
+silakan tulis isi paragraf sesukamu.cobalah perhatikan hasilnya di browser.
+</div>
+<div clas="text-right">
+paragraf ini akan rata kanan.ini cuma contoh paragraf untuk mendemokan tekt-align di CSS.
+silakan tulis isi paragraf sesukamu.cobalah perhatikan hasilnya di browser.
+</div>
+<div>
+paragraf ini akan rata kanan dan kiri.ini cuma contoh paragraf untuk mendemokan tekt-align di CSS.
+silakan tulis isi paragraf sesukamu.cobalah perhatikan hasilnya di browser.
+</div>
+
+</body>
+</html>
+

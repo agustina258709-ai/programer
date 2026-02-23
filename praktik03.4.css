@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Text Spacing</title>
+<style>
+h1 {
+  letter-spacing: -2px;
+  word-spacing: 4px;
+}
+.small {
+  font-size: 8px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.line-height {
+  line-height: 1.6;
+}
+.indent {
+  text-indent: 2em;
+}
+.nowrap {
+  white-space: break-spaces;
+}
+</style>
+</head>
+<body>
+<h1>Contoh Text Spacing</h1>
+<p class="small">Contoh teks dengan ukuran kecil</p>
+
+<p class="indent">
+Ini adalah contoh paragraf dengan teks indent. Baris pertama masuk ke dalam sepanjang 2em.
+</p>
+
+<p class="line-height">
+Ini adalah contoh paragraf dengan line height 1.6 agar lebih mudah dibaca.
+</p>
+
+<p class="nowrap">
+Ini contoh paragraf dengan white-space: break-spaces. Spasi akan mengikuti sesuai HTML.
+</p>
+</body>
+</html>

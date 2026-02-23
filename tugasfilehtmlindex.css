@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Contoh Selector CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="judul">Belajar CSS Selector</h1>
+    <p>Ini adalah contoh selector dengan <b>tag</b>.</p>
+
+    <div class="kotak">
+        Kotak ini menggunakan selector <b>class</b>.
+    </div>
+
+    <p class="teks">Paragraf dengan class teks.</p>
+
+    <footer>
+        <p>Bagian footer halaman.</p>
+    </footer>
+</body>
+</html>
