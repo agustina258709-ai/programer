@@ -1,0 +1,33 @@
+warna-nama {
+  color: red; /* nama warna */
+  background-color: white;
+  padding: 10px;
+  margin: 5px;
+}
+
+.warna-rgb {
+  color: rgb(0, 128, 255); /* RGB */
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 5px;
+}
+
+.warna-rgba {
+  color: rgba(255, 0, 0, 0.7); /* RGBA */
+  background-color: #e0e0e0;
+  padding: 10px;
+  margin: 5px;
+}
+
+.warna-hsl {
+  color: hsl(120, 100%, 25%); /* HSL */
+  background-color: #fafafa;
+  padding: 10px;
+  margin: 5px;
+}
+
+.warna-hsla {
+  color: hsla(240, 100%, 50%, 0.5); /* HSLA */
+  background-color: #ddd;
+  padding: 10px;
+  margin: 5px;
