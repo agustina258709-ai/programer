@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Z-Index Images</title>
+<style>
+img {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+.img1 {
+  top: 200px;
+  left: 200px;
+  z-index: 3; /* paling depan */
+}
+.img2 {
+  top: 300px;
+  left: 300px;
+  z-index: 2; /* tengah */
+}
+.img3 {
+  top: 400px;
+  left: 400px;
+  z-index: 1; /* paling belakang */
+}
+</style>
+</head>
+<body>
+<img src="artworks-DQEXMrhUzopzbuy6-uCP2bg-t500x500.jpg" class="img1" alt="Gambar 1">
+<img src="davina-karamoy_43.jpeg" class="img2" alt="Gambar 2">
+<img src="7def9e1505456503810f43038b2e3050.jpg" class="img3" alt="Gambar 3">
+</body>
+</html>

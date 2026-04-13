@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  height: 2000px; /* supaya bisa scroll */
+}
+.box {
+  position: fixed;
+  background-color: yellow;
+  padding: 10px;
+}
+.top-left {
+  top: 0;
+  left: 0;
+  background-color: coral;
+}
+.back-to-top {
+  bottom: 10px;
+  right: 10px;
+  background-color: lightblue;
+  cursor: pointer;
+}
+.left-fixed {
+  top: 50%;
+  left: 0;
+  background-color: lightgreen;
+}
+.right-fixed {
+  top: 50%;
+  right: 0;
+  background-color: pink;
+}
+</style>
+</head>
+<body>
+<div class="box top-left">Kiri Atas</div>
+<div class="box back-to-top" onclick="window.scrollTo({top:0, behavior:'smooth'})">Back to Top</div>
+<div class="box left-fixed">Left Fixed</div>
+<div class="box right-fixed">Right Fixed</div>
+</body>
+</html>
